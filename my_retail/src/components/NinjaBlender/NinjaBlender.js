@@ -22,6 +22,7 @@ class NinjaBlender extends Component {
                         <br />
                         <br />
                         <ImageCarousel />
+                        <br />
                         <Reviews />
                     </div>
                     <div className="rightSide">
