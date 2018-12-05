@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import { Carousel } from 'react-bootstrap';
 
+//this component creates a carousel for images
+//images are hard-coded, eventually, they will be passed
+//in via props so the component can be used with any product
+
 class ImageCarousel extends Component {
 
     render() {

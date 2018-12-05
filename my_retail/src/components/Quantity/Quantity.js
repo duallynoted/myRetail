@@ -2,6 +2,10 @@ import React, { Component } from 'react';
 import { Button, Label } from 'react-bootstrap';
 import { Add, Minimize } from '@material-ui/icons'
 
+//this component sets the quantity of a product a
+//customer wants to buy
+//it can be used with any product
+
 class Quantity extends Component {
     state = {
         count: 1,
@@ -10,7 +14,7 @@ class Quantity extends Component {
         this.setState({
             count: this.state.count + 1
         })
-        if (this.state.count === 4)
+        if (this.state.count === 10)
             alert('You have reached the maximum allowable quantity for this product');
     }
     handleQuantityDecrease = () => {
