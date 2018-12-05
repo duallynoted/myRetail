@@ -4,6 +4,7 @@ import ImageCarousel from './ImageCarousel';
 import { PageHeader } from 'react-bootstrap';
 import Quantity from '../Quantity/Quantity';
 import Cart from '../Cart/Cart';
+import Reviews from '../Reviews/Reviews';
 
 
 
@@ -21,6 +22,7 @@ class NinjaBlender extends Component {
                         <br />
                         <br />
                         <ImageCarousel />
+                        <Reviews />
                     </div>
                     <div className="rightSide">
                         <PageHeader>
