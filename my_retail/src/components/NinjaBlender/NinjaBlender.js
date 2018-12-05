@@ -2,12 +2,15 @@ import React, { Component } from 'react';
 import '../App/App.css';
 import ImageCarousel from './ImageCarousel';
 import { Label, PageHeader } from 'react-bootstrap';
-import { Divider } from '@material-ui/core'
+import Quantity from '../Quantity/Quantity';
 
 
 
 class NinjaBlender extends Component {
+
     render() {
+
+
         return (
             <div className="App">
                 <header className="App-header">
@@ -27,10 +30,8 @@ class NinjaBlender extends Component {
                             <br />
                             <small>$25 gift card with purchase of select Ninja Blender</small>
                         </PageHeader>
+                        <Quantity />
                     </div>
-
-
-
                 </header>
             </div>
         );
