@@ -30,6 +30,6 @@ Type `npm start` in your terminal to get the project up on localhost:3000.
 ## Deployment
 
 
-## Authors
+## Author
 Daniel Ridley
 GitHub username: duallynoted
