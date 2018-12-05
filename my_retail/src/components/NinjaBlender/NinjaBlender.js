@@ -6,7 +6,6 @@ import { Divider } from '@material-ui/core'
 
 
 
-
 class NinjaBlender extends Component {
     render() {
         return (
@@ -25,6 +24,7 @@ class NinjaBlender extends Component {
                         </PageHeader>
                         <PageHeader>
                             <small>spend $50, ship free</small>
+                            <br />
                             <small>$25 gift card with purchase of select Ninja Blender</small>
                         </PageHeader>
                     </div>
