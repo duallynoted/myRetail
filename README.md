@@ -28,6 +28,8 @@ A full list of dependencies can be found in the package.json file.
 Type `npm start` in your terminal to get the project up on localhost:3000.
 
 ## Deployment
+Continuous Delivery Flow
+![alt text](https://drive.google.com/open?id=1TqRa4nLmThVBmaQzl1X_kz2RndS67lUsrkQ3IA2pLTg)
 
 
 ## Authors
