@@ -10,13 +10,16 @@ class Quantity extends Component {
         this.setState({
             count: this.state.count + 1
         })
-        console.log(this.state);
+        if (this.state.count === 4)
+            alert('You have reached the maximum allowable quantity for this product');
     }
     handleQuantityDecrease = () => {
         this.setState({
             count: this.state.count - 1
         })
-        console.log(this.state);
+        if (this.state.count === 0) {
+            alert('Please add to your cart.');
+        }
     }
 
     render() {

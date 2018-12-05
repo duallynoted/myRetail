@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { AppBar, Button, Tabs, Tab, Typography, withStyles } from '@material-ui/core';
+import { AppBar, Tabs, Tab, Typography, withStyles } from '@material-ui/core';
 import { StarRate } from '@material-ui/icons';
 import SwipeableViews from 'react-swipeable-views';
 // import { Link } from 'react-router-dom';
@@ -45,7 +45,8 @@ class Reviews extends Component {
             <div className={classes.root}>
                 <Typography>
                     <StarRate /><StarRate /><StarRate /><StarRate /><StarRate /> overall
-                    <p>see all reviews</p> {/*this will eventually be a link*/}
+                    <br/>
+                    see all reviews {/*this will eventually be a link*/}
                     <h3>What did other Bullseye shoppers think?</h3>
                 </Typography>
                 <AppBar position="static" color="default">

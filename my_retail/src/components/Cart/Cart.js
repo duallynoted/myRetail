@@ -48,20 +48,19 @@ class Cart extends Component {
             <div>
                 <Button
                     classes={{
-                        root: classes.addButton,
-                    }}
-                    variant="contained"
-                    onClick={this.handleAddToCart}>
-                    Add to Cart
-                </Button>
-                <Button
-
-                    classes={{
                         root: classes.pickupButton,
                     }}
                     variant="contained"
                     onClick={this.handlePickup}>
                     Pick Up In Store
+                </Button>
+                <Button
+                    classes={{
+                        root: classes.addButton,
+                    }}
+                    variant="contained"
+                    onClick={this.handleAddToCart}>
+                    Add to Cart
                 </Button>
             </div>
         );
