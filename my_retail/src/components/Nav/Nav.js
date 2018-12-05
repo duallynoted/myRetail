@@ -5,7 +5,7 @@ import { withRouter } from 'react-router';
 import PropTypes from 'prop-types';
 import { AppBar, Toolbar, Typography, withStyles } from '@material-ui/core';
 
-
+////will eventually be added to project for client side routing
 
 const styles = {
     appBar: {
