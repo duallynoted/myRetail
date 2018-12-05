@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Well, Button } from 'react-bootstrap';
+import { Button, Label } from 'react-bootstrap';
+import { Add, Minimize } from '@material-ui/icons'
 
 class Quantity extends Component {
     state = {
@@ -20,10 +21,15 @@ class Quantity extends Component {
 
     render() {
         return (
-            <div className="App">
-                <Well><Button onClick={this.handleQuantityIncrease}>More</Button>
-                    <Button onClick={this.handleQuantityDecrease}>Less</Button>
-                </Well>
+            <div className="well">
+                <div id="wellText">
+                    quantity:
+                    </div>
+                <div id="wellFunction">
+                    <Button onClick={this.handleQuantityDecrease}><Minimize /></Button>
+                    <Label>{this.state.count}</Label>
+                    <Button onClick={this.handleQuantityIncrease}><Add /></Button>
+                </div>
             </div>
         );
     }

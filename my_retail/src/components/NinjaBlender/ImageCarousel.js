@@ -16,7 +16,7 @@ class ImageCarousel extends Component {
                 <Carousel.Item>
                     <img width={200} height={175} alt="200x175" src="http:\/\/target.scene7.com\/is\/image\/Target\/14263758_Alt02" />
                     <Carousel.Caption>
-                        <h3>72 oz.</h3>
+                        <h3>72.0 Oz.</h3>
                         <h3>Capacity</h3>
                     </Carousel.Caption>
                 </Carousel.Item>
