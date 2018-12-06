@@ -33,5 +33,9 @@
   ],
   "devDependencies": {
     "json-loader": "^0.5.7"
-  }
+  },
+  "description": "This applcation is a mockup of a page for the retail store Bullseye. ## App Overview",
+  "main": "notes.js",
+  "author": "",
+  "license": "ISC"
 }
